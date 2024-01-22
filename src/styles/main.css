@@ -2009,6 +2009,11 @@ input, select, textarea {
 		border-bottom: none;
 		position: relative;
 	}
+	
+	.big-icon {
+		font-size: 96px;
+	}
+
 
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
