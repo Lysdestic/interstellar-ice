@@ -1,6 +1,10 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
+:root {
+	--background: #070605;
+	--background-alt: #15022b;
+}
 /*
 	Strata by HTML5 UP
 	html5up.net | @ajlkn
@@ -83,7 +87,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: rgb(21, 2, 43);
+		background: var(--background-alt);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2591,7 +2595,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: var(--background);
 		background-attachment: scroll,								scroll;
 		background-image: url("./images/overlay.png"), url("../assets/bg.jpg");
 		background-position: top left,							top left;
@@ -3078,7 +3082,7 @@ input, select, textarea {
 
 			#footer {
 				background-attachment: scroll;
-				background-color: #1f1815;
+				background-color: var(--background);
 				background-image: url("./images/overlay.png"), url("../assets/bg.jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
