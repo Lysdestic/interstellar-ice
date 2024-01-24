@@ -3064,8 +3064,8 @@ input, select, textarea {
 			#header {
 				background-attachment: scroll;
 				background-position: top left, center center;
-				background-size: auto,		40%;
-				background-image: url("./images/overlay.png"), url("../assets/avatar.png");
+				background-size: auto,		100%;
+				background-image: url("./images/overlay.png"), url("../assets/wide-background.png");
 				left: auto;
 				padding: 6em 4em;
 				position: relative;
