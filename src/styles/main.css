@@ -365,6 +365,7 @@ input, select, textarea {
 
 		.row > .col-4 {
 			width: 33.33333%;
+			text-align: center;
 		}
 
 		.row > .off-4 {
